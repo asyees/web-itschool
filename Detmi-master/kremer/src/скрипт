@@ -1,0 +1,8 @@
+<script>
+                /*document.querySelector('.section_1_item-3').addEventListener('click', function() {
+                    window.scrollBy({
+                        top: 5 * window.innerHeight / 4, // Скроллируем на 5% высоты окна браузера
+                        behavior: 'smooth' // Делаем скролл плавным
+                    })
+                });*/
+                </script>

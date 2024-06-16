@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1e6f7ab;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 97px;
+    background-color: #ffffff5e;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-box {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+ 
+  h2 {
+    color: #a6c6e7;
+    background-image: linear-gradient(90deg, #b6d7fa, #a200ff75, #00d9ff80);
+    background-size: 200%;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 2s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 200%;
+    }
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+  }
+  
+  input {
+    width: calc(100% - 22px); 
+  }
+  
+  button {
+    width: calc(100% - 22px); 
+  }
+  
+  button {
+    padding: 20px;
+    margin-top: 27px;
+    background-color: #2a8ec9;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 9px;
+    background-image: linear-gradient(90deg,  #b6d7fa, #a200ff75, #00d9ff80);
+    font-size: 24px;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 200%;
+    }
+  }
+  
+  button:hover {
+    background-color: #c275cc;
+  }
+  .logo{
+    margin-left: 25px;
+    height: 62px;
+    width: 218px;
+  }

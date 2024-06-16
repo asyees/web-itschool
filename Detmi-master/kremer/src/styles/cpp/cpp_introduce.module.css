@@ -1,0 +1,129 @@
+
+.aside-right {
+    background-color: #e0eaffcb; /* Светло-зеленый фон */
+   
+  }
+  .intro-block{
+    background-color: #9fb9ffa4;
+    padding: 40px;
+    margin-top: 100px;
+    font-size: 18px;
+  }
+ 
+  .for-whom-block{
+    background-color:  #9fb9ffa4;
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 40px;
+  }
+  .intro-block {
+   
+    text-align: center; /* Центрирование текста */
+    display: flex; /* Центрирование содержимого */
+    flex-direction: column; /* Вертикальное выравнивание */
+    align-items: center; /* Центрирование содержимого */
+  }
+  
+  .intro-block p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+  }
+  .parah{
+    font-size: 24px;
+  }
+  .for-whom-block {
+  
+    text-align: center; /* Центрирование текста */
+    display: flex; /* Центрирование содержимого */
+    flex-direction: column; /* Вертикальное выравнивание */
+    align-items: center; /* Центрирование содержимого */
+  }
+  
+  .for-whom-block p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    margin: 0; /* Убираем внешние отступы для точного центрирования */
+  }
+  .title {
+    text-align: center;
+    margin: 20px 0; /* Дополнительные отступы сверху и снизу */
+    font-size: 2em; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+  }
+  .course-program {
+  
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .course-program p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .course-program ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-program li {
+    padding: 5px 0;
+   
+  }
+  
+  .course-program li:last-child {
+    border-bottom: none; /* Убираем нижнюю границу у последнего элемента списка */
+  }
+  .button__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button__link {
+    text-decoration: none;
+  }
+  
+  .button__link-to-course {
+    background-color: #0e4aee;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button__link-to-course:hover {
+    background-color: #1120ec;
+  }
+  .course-program p {
+    font-size: 24px;
+    margin-left: 120px;
+  }
+  
+  .course-program ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-program li {
+    margin-bottom: 2px;
+  }
+  
+  .course-program li::before {
+    content: "•";
+    color: #0059ff;
+    display: inline-block;
+    width: 1em;
+    margin-left: 2em;
+    font-size: 2em; /* Увеличиваем размер символа */
+    transition: transform 0.3s; /* Добавляем плавный переход */
+  }
+  
+  .course-program li:hover::before {
+    transform: scale(1.5); /* Увеличиваем размер символа при наведении */
+  }
+  

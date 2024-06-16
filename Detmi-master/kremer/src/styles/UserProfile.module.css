@@ -1,0 +1,189 @@
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Добавлено для выравнивания по центру */
+    height: 44vh; /* Высота на весь экран для вертикального центрирования */
+    text-align: center; /* Для центрирования текста */
+}
+
+.profilePic {
+    position: relative;
+    margin-bottom: 20px;
+}
+.heading {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.profilePic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
+.profilePic input {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.nicknameSection h2 {
+    cursor: pointer;
+}
+
+.nicknameSection input {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.developmentSection {
+    background: linear-gradient(to right, #ffb2c4, #afd2fc);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: colorChange 5s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background: linear-gradient(to right, #b2f8d7, #ffbbae);
+    }
+    50% {
+      background: linear-gradient(to right, #f2bfff, #ffe7b8);
+    }
+    100% {
+      background: linear-gradient(to right, #ffbccc, #ffafa1);
+    }
+  }
+  .register-box {
+    padding: 40px;
+    background-color: #ffffff5e;
+    border-radius: 120px;
+    box-shadow: 0 8px 9px rgba(146, 210, 235, 0.493), 0 0 10px rgba(146, 177, 235, 0.5), 0 0 15px rgba(220, 146, 235, 0.3);
+    margin-right: 230px;
+    margin-left: 211px;
+    margin-top: 60px;
+}
+
+.register-box h2 {
+
+    font-size: 28px;
+    text-align: center; 
+    background-image: linear-gradient(90deg, #0019ffe7, #7700ffd3, #c200ffd3, #180affd3, #2400ffd2, #00cdffd3);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    animation: gradient 1s linear infinite;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    20% {
+        background-position: 20%;
+    }
+    40% {
+        background-position: 40%;
+    }
+    60% {
+        background-position: 60%;
+    }
+    80% {
+        background-position: 80%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+.register-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 5px; 
+    font-size: 14px;
+}
+
+
+.register-box label {
+    margin-top: 40px;
+}
+
+.register-box input {
+    display: flex;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #cacaca75;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 220px;
+}
+
+
+.registerButton {
+    padding: 8px;
+    margin-top: 40px;
+    background-color: #b5dcf3;
+    color: #fff9f9;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: 9px;
+    background-image: linear-gradient(90deg, #5ea6f3, #ab41e975, #47cce480);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registerButton:hover {
+    background-color: #173ce2;
+}
+.modalContent{
+     font-size: 28px;
+    text-align: center; 
+    background-image: linear-gradient(90deg, #0019ffe7, #7700ffd3, #c200ffd3, #180affd3, #2400ffd2, #00cdffd3);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    animation: gradient 1s linear infinite;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    20% {
+        background-position: 20%;
+    }
+    40% {
+        background-position: 40%;
+    }
+    60% {
+        background-position: 60%;
+    }
+    80% {
+        background-position: 80%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}

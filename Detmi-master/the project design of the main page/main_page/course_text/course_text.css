@@ -1,0 +1,190 @@
+html{
+    box-sizing: border-box;
+  }
+  
+  *, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    max-height: 100%;
+  }
+  ul{
+    list-style-type:  none; 
+  }
+     a{
+    text-decoration: none;
+    color: black;
+   }
+   
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 24px;
+    padding: 0;
+    background-color: #f0fff2b7;
+}
+
+.centered-text {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(17, 145, 81, 0.342);
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    align-items: center;
+}
+
+pre {
+    background-color: #cef0d396;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    margin-top: 20px; /* Добавлен отступ перед блоком с кодом */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.header__inner {
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .header{
+    background: rgba(243, 255, 236, 0.36);
+    border: 1px solid rgba(0, 0, 0, 0.212);
+  }
+    .menu__list{
+      display: flex;
+      gap: 300px; 
+      padding-right: 50px;
+  
+    }
+    .menu__list-link {
+      color: #000;
+  
+    }
+    .logo__img {
+      width: 330px; 
+  }
+  
+  .header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 15px;
+  }
+  .user__img{
+    width: 50px;
+  }
+  .submenu {
+    display: none; /* Сначала скрываем список */
+    position: absolute;
+    background-color: #9de99331;
+    border: 1px solid #00000052;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .menu__list-item:hover .submenu {
+    display: none; /* Скрываем выпадающий список по умолчанию */
+  }
+  .submenu li {
+    color: #6e6b6b; /* Цвет текста */
+    font-size: 24px; /* Размер шрифта */
+    font-family: Arial, sans-serif; /* Шрифт */
+    text-align: left; /* Выравнивание текста */
+    margin-bottom: 15px; /* Отступ между пунктами списка */
+  }
+  h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 436px;
+}
+.footer__inner{
+  padding-top: 200px;
+background: linear-gradient(rgba(240, 255, 242, 0.53), rgb(157, 243, 171));
+}
+.footer__menu{
+  /* margin-top: 100px; */
+display: flex;
+justify-content:center ;
+gap: 300px;
+/* align-items: center; */
+
+}
+.logo__footer-img{
+width: 200px;
+transition: 0.5s;
+}
+.logo__footer-img:hover{
+transform:scale(1.5) ;
+}
+
+.logo__footer{
+  /* margin-right: -75px; */
+  margin-top: 100px;
+  /* display: flex;
+text-align: center;
+align-items: end; */
+/* display: inline-block; */
+/* overflow: hidden; */
+}
+
+.footer__text{
+text-align: center;
+/* padding-right: 50px; */
+font-size: 12px;
+padding-bottom: 20px;
+margin-right: 75px;
+}
+.footer__menu-link:hover{
+color: azure  ;
+transition: 0.2s;
+}
+.footer__menu-title{
+font-weight: 700;
+font-size: 20px;
+}
+.width-wrapper__footer{
+  max-width: 1280px;
+  margin: 0 auto;
+  }
+  /* .course-plan__list-text{
+  font-size: 1.04vw;
+  } */
+  .tg_link{
+    width: 125px;
+    transition: 0.25s;
+  }
+  .tg_link:hover{
+    transform: scale(1.1);
+  
+  }
+  .arrow1{
+    width: 63px;
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 1px;
+  }

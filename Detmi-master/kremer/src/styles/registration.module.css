@@ -1,0 +1,171 @@
+
+html{
+    box-sizing: border-box;
+    
+  }
+  
+  *, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    
+ 
+
+  }
+  
+  html, body {
+    max-height: 100%;
+    
+    
+  }
+  ul{
+    list-style-type:  none; 
+  }
+     a{
+    text-decoration: none;
+    color: black;
+   }
+   body{
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 1000px;   
+    background-color: #F0F4FF;
+    max-width: 100%;
+   
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d1e6f700;
+    font-family: 'Roboto', sans-serif;
+
+}
+.user1_img {
+    width: 700px;
+    margin-right: 50px;
+}
+
+.Detmi_img{
+    width: 190px;
+    height: 52px;
+    margin-left: 54px;
+    }
+
+.register-box {
+    padding: 40px;
+    background-color: #ffffff5e;
+    border-radius: 120px;
+    box-shadow: 0 8px 9px rgba(146, 210, 235, 0.493), 0 0 10px rgba(146, 177, 235, 0.5), 0 0 15px rgba(220, 146, 235, 0.3);
+    margin-right: 10px;
+}
+
+.register-box h2 {
+
+    font-size: 28px;
+    text-align: center; 
+    background-image: linear-gradient(90deg, #0019ffe7, #7700ffd3, #c200ffd3, #180affd3, #2400ffd2, #00cdffd3);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    animation: gradient 1s linear infinite;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    20% {
+        background-position: 20%;
+    }
+    40% {
+        background-position: 40%;
+    }
+    60% {
+        background-position: 60%;
+    }
+    80% {
+        background-position: 80%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+
+.register-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 5px; 
+    font-size: 14px;
+}
+
+
+.register-box label {
+    margin-top: 40px;
+}
+
+.register-box input {
+    display: flex;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #cacaca75;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 220px;
+}
+
+
+.registerButton {
+    padding: 8px;
+    margin-top: 40px;
+    background-color: #b5dcf3;
+    color: #fff9f9;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: 9px;
+    background-image: linear-gradient(90deg, #5ea6f3, #ab41e975, #47cce480);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registerButton:hover {
+    background-color: #173ce2;
+}
+
+.login-link {
+    margin-top: -6px;
+    font-size: 14px;
+    margin-left: 70px;
+    color: #ff00c8;
+}
+
+.login-anchor {
+    color: rgb(0, 0, 255);
+    margin-left: -50px;
+}
+
+.login-anchor:hover {
+    color: rgb(225, 158, 231);
+}
+.span {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff; 
+    color: #ffc1fc; 
+    border: 2px solid #f155ff; 
+    border-radius: 5px; 
+    font-weight: bold; 
+}

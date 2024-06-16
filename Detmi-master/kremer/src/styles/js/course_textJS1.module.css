@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Allwrapper{
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+.widthWrap{
+  margin: 0 auto;
+}
+.bodyYellowBackground {
+    background-color: rgba(255, 255, 216, 0.329);
+}
+
+.centeredText {
+  max-width: 870px;
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #fff59f46;
+  border-radius: 10px;
+  box-shadow: 0 0 90px rgba(254, 255, 186, 0.712);
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+  align-items: center;
+}
+
+.codeBlock {
+  background-color: #ffffc079;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.stepButtonsContainer{
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 1px; */
+  gap: 7.813vw;
+}
+.stepButton{
+  padding: 20px 63px;
+  font-size: 18px;
+  background-color: #e6e791;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 107px;
+  /* margin: 54px; */
+  margin-top: 0px;
+}
+.stepButton:hover {
+  background-color: #d2dd357e;
+}
+
+
+.arrow1 {
+  width: 43px;
+  height: 45px;
+  right: 1px;
+}

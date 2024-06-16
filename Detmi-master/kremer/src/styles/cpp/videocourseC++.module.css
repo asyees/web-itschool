@@ -1,0 +1,306 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.Allwrapper{
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+
+  /* margin-right: 25%;  */
+}
+html, body {
+  max-height: 100%;
+}
+ul{
+  list-style-type:  none; 
+}
+   a{
+  text-decoration: none;
+  color: black;
+ }
+
+/* videocoursePY.module.css */
+.main {
+min-height: 70vh; /* Обеспечивает, что фон будет охватывать всю высоту экрана */
+margin: 0 auto;
+}
+
+.bodyGreenBackground {
+background-color: rgba(28, 25, 235, 0.068);
+}
+
+ 
+  .header__inner {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.header{
+  background: rgba(236, 241, 255, 0.36);
+  border: 1px solid rgba(0, 0, 0, 0.212);
+}
+  .menu__list{
+    display: flex;
+    gap: 300px; 
+    padding-right: 50px;
+
+  }
+  .menu__list-link {
+    color: #000;
+
+  }
+  .logo__img {
+    width: 330px; 
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 15px;
+}
+.user__img{
+  width: 50px;
+}
+
+
+
+/*.submenu {
+  display: none; 
+  position: absolute;
+  background-color: #9de99331;
+  border: 1px solid #00000052;
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+}
+.styles.main{
+background-color: #c0e1d389;
+}
+.menu__list-item:hover .submenu {
+  display: none;
+}
+.submenu li {
+  color: #6e6b6b; 
+  font-size: 24px; 
+  font-family: Arial, sans-serif; 
+  text-align: left; 
+  margin-bottom: 15px; 
+}*/
+.footer__inner{
+padding-top: 200px; 
+background: linear-gradient(rgba(240, 244, 255, 0.53), rgb(157, 180, 243));
+}
+.footer__menu{
+margin-top: 100px;
+display: flex;
+justify-content:center ;
+gap: 300px;
+align-items: center; 
+
+}
+.logo__footer-img{
+width: 200px;
+transition: 0.5s;
+}
+.logo__footer-img:hover{
+transform:scale(1.5) ;
+}
+
+.logo__footer{
+ margin-right: -75px; 
+margin-top: 100px;
+ display: flex;
+text-align: center;
+align-items: end; 
+display: inline-block; 
+overflow: hidden; 
+}
+
+.footer__text{
+text-align: center;
+padding-right: 50px; 
+font-size: 12px;
+padding-bottom: 20px;
+margin-right: 75px;
+}
+.footer__menu-link:hover{
+color: azure  ;
+transition: 0.2s;
+}
+.footer__menu-title{
+font-weight: 700;
+font-size: 20px;
+}
+.width-wrapper__footer{
+max-width: 1280px;
+margin: 0 auto;
+}
+ .course-plan__list-text{
+font-size: 1.04vw;
+} 
+
+
+.tg_link{
+  width: 125px;
+  transition: 0.25s;
+}
+.tg_link:hover{
+  transform: scale(1.1);
+
+}
+.arrow1_img {
+  width: 63px;
+  height: 65px;
+  right: 1px; 
+}
+
+.top{
+
+  margin-bottom: 157px;
+  margin: 10px 10px ;
+}
+.top__wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+
+}
+.zaeb{
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px; 
+  
+}
+.fon1_img {
+width: 20px;
+height: 20px;
+margin-top: 7px;
+right: 0;
+
+}
+
+.fon__img {
+width: 200px;
+height: 201px;
+margin-top: 10px;
+position: relative;
+margin-left: 10px;
+
+}
+
+.fon1__img {
+width: 20px;
+height: 20px;
+margin-top: 0px;
+position: relative;
+margin-left: 10px;
+
+}
+.greetings {
+font-size: 34px;
+color: #333;
+text-align: center;
+margin-top: 1px;
+margin-left: 28px;
+}
+
+.video {
+max-width: 52.083vw;
+margin: 30px 0 0 0;
+}
+
+
+.content-wrapper{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+.step-buttons-container{
+display: flex;
+justify-content: center;
+gap: 7.813vw;
+margin-top: 50px;
+margin-bottom: 25px;
+}
+.step-button {
+padding: 20px 63px;
+font-size: 18px;
+background-color: #6264ee;
+color: white;
+border: none;
+border-radius: 107px;
+/* margin: 54px; */
+margin-top: 0px;
+}
+.step-button:hover {
+background-color: #356add7e;
+}
+
+
+
+
+
+/*.panel-toggle-button {
+  position: flex;
+  top: 90px;
+  width: 252px;
+  left: 0;
+  padding: 30px;
+  background-color: #86f3a1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}*/
+
+.panel {
+position: fixed;
+top: 173px; 
+bottom: 0;
+left: 0;
+z-index: 1;
+width: 250px;
+background-color: #6575d32c;
+padding: 20px;
+box-shadow: 0 0 10px rgba(80, 124, 218, 0.63); 
+transition: left 0.9s ease;
+}
+
+
+.panel a {
+z-index: 1;
+display: block;
+color: #000000;
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+.panel a:hover {
+color: #5c7adbe0;
+}
+
+.panel hr {
+border: none;
+border-top: 1px solid #ccc;
+margin: 10px 0;
+}
+.panel-line {
+width: 100%;
+border: none;
+height: 1px;
+background-color: #ccc; 
+position: absolute;
+bottom: 0;
+left: 0;
+top: 200px;
+}   
+
+

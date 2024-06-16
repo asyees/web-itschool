@@ -1,0 +1,106 @@
+
+
+.content {
+    background-color: #cadef74f;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.Allwrapper{
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+
+  /* margin-right: 25%;  */
+}
+.title {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container{
+    background-color:rgba(221, 230, 255, 0.651);
+  }
+  
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style-type: none;
+}
+
+.optionLabel {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    
+}
+
+.button {
+    background-color: #223653;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.step-buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    gap: 7.813vw;
+  }
+  .step-button {
+    padding: 20px 63px;
+    font-size: 18px;
+    background-color: #628eee;
+    color: white;
+    border: none;
+    border-radius: 107px;
+    margin-top: 0px;
+  }
+  .step-button:hover {
+    background-color: #3540dd7e;
+  }
+  
+  .wrong {
+   background-color:  rgba(255, 135, 135, 0.541); /* Красный цвет текста для неправильных ответов */
+  }
+  .buttonGroup {
+    margin-top: 20px; /* добавляем отступ между кнопками */
+  }
+  
+  .button {
+    margin-right: 10px; /* добавляем отступ между кнопками */
+    padding: 10px 20px; /* задаем отступы внутри кнопки */
+    font-size: 16px; /* размер шрифта */
+    border: none; /* убираем границу */
+    border-radius: 5px; /* закругляем углы */
+    background-color: #4e4caf; /* цвет фона */
+    color: white; /* цвет текста */
+    cursor: pointer; /* указатель при наведении */
+    transition: background-color 0.3s; /* анимация перехода */
+  }
+  
+  .button:hover {
+    background-color: #454ea0; /* изменение цвета фона при наведении */
+  }
+  .codeInput {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+.compileButton {
+  background-color: #304980;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

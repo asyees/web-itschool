@@ -1,0 +1,60 @@
+.footer__inner{
+   padding-top: 200px; 
+  background: linear-gradient(rgba(240, 255, 242, 0.53), rgb(157, 243, 171));
+  }
+  .footer__menu{
+    /* margin-top: 100px; */
+  display: flex;
+  justify-content:center ;
+  gap: 300px;
+  /* align-items: center; */
+  
+  }
+  .logo__footer-img{
+  width: 200px;
+  transition: 0.5s;
+  }
+  .logo__footer-img:hover{
+  transform:scale(1.5) ;
+  }
+  
+  .logo__footer{
+    /* margin-right: -75px; */
+    margin-top: 100px;
+    /* display: flex;
+  text-align: center;
+  align-items: end; */
+  /* display: inline-block; */
+  /* overflow: hidden; */
+  }
+  
+  .footer__text{
+  text-align: center;
+  /* padding-right: 50px; */
+  font-size: 12px;
+  padding-bottom: 20px;
+  margin-right: 75px;
+  }
+  .footer__menu-link:hover{
+  color: azure  ;
+  transition: 0.2s;
+  }
+  .footer__menu-title{
+  font-weight: 700;
+  font-size: 20px;
+  }
+  .width-wrapper__footer{
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+     .course-plan__list-text{
+    font-size: 1.04vw;
+    } 
+    .tg_link{
+      width: 125px;
+      transition: 0.25s;
+    }
+    .tg_link:hover{
+      transform: scale(1.1);
+    
+    }

@@ -1,0 +1,199 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .exit{
+    /* margin-left: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  
+  
+  
+  
+  
+  html{
+    box-sizing: border-box;
+  }
+  
+  *, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    max-height: 100%;
+  }
+  ul{
+    list-style-type:  none; 
+  }
+     a{
+    text-decoration: none;
+    color: black;
+   }
+  
+    body{
+      font-family: "Roboto" , sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      background-color: #F0F4FF; 
+  
+  
+     
+    }
+    .background{
+      background: linear-gradient(#F0F4FF,rgba(161, 180, 233, 0.53));
+    }
+  .width-wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background: linear-gradient(#F0F4FF) 85%,rgb(240, 244, 255); */
+  }
+    .header__inner {
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  .header{
+    background: rgba(176,139,236,0.36);
+    margin-bottom: 25px;
+   
+  }
+  
+  
+  
+  
+  .menu__list-link {
+    /* Ваши стили для ссылки в меню */
+    /* Например: */
+    color: #000; /* цвет текста */
+    text-decoration: none; /* убрать подчеркивание */
+  }
+  
+  .submenu {
+    /* Стили для всплывающего меню */
+    display: none; /* изначально скрыто */
+    position: absolute;
+    background-color: #e4abe42d; /* Цвет фона */
+    padding: 50px; /* Внутренний отступ */
+    width: 400px; /* Ширина прямоугольника */
+    height: auto; /* Автоматическая высота в зависимости от содержимого */
+    border-radius: 5px; /* Скругление углов */
+    border: 1px solid #cccccc00; /* Граница */
+    font-size: 20px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    line-height: 1.8; /* Межстрочный интервал */
+    text-align: left; /* Выравнивание текста по левому краю */
+    left: 450px;
+  }
+  
+  
+  
+  
+  
+  .menu__list-item:hover .submenu {
+    display: block; /* показывать всплывающее меню при наведении на пункт меню */
+  }
+  
+  
+  
+  
+  
+    .menu__list{
+      /* margin-left: 50px; */
+      display: flex;
+      gap: 15.63vw; 
+      padding-right: 50px;
+  
+    }
+    .menu__list-link {
+      color: #000;
+  
+    }
+    .logo__img {
+      min-width: 150px;
+      width: 13.02vw; 
+  }
+  
+  .header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 15px;
+  }
+  .user__img{
+    width: 50px;
+  }
+  
